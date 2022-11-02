@@ -1,0 +1,15 @@
+### Module positions - created on 21/10/2022 15:15:49 ###
+### Printed by Pcbnew version kicad (5.1.4)-1
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val                  Package                                   PosX       PosY       Rot  Side
+J1        Conn_02x04_Odd_Even  PinHeader_2x04_P2.00mm_Vertical_SMD  -107.3000  -123.4000    0.0000  bottom
+D1        Prog                 LED_0603_1608Metric                   111.5000  -119.0000   90.0000  top
+D2        Func                 LED_0603_1608Metric                   111.5000  -125.0000   90.0000  top
+R1        R                    R_0402_1005Metric                     111.5000  -121.1000  180.0000  top
+R2        R                    R_0402_1005Metric                     111.5000  -127.1000  180.0000  top
+SW1       Prog                 SW_Push_Xunpu_TS-1089S                102.0000  -119.0000    0.0000  top
+SW2       Func                 SW_Push_Xunpu_TS-1089S                102.0000  -125.0000    0.0000  top
+SW5       Res                  SW_Push_Xunpu_TS-1089S                102.0000  -133.0000    0.0000  top
+SW6       BL                   SW_Push_Xunpu_TS-1089S                102.0000  -139.0000    0.0000  top
+## End
