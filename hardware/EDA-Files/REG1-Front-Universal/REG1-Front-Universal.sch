@@ -1,12 +1,13 @@
 EESchema Schematic File Version 4
+LIBS:REG1-Front-Universal-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "REG1-Front-Universal"
-Date "2022-10-21"
-Rev "V00.01"
+Date "2022-11-04"
+Rev "V00.02"
 Comp "OpenKNX"
 Comment1 "by SirSydom <com@sirsydom.de>"
 Comment2 ""
@@ -16,15 +17,15 @@ $EndDescr
 $Comp
 L Connector_Generic:Conn_02x04_Odd_Even J?
 U 1 1 63548ED5
-P 2350 1650
+P 2250 1650
 AR Path="/5FE0DFF8/63548ED5" Ref="J?"  Part="1" 
 AR Path="/63548ED5" Ref="J1"  Part="1" 
-F 0 "J1" H 2400 2067 50  0000 C CNN
-F 1 "Conn_02x04_Odd_Even" H 2400 1976 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_2x04_P2.00mm_Vertical_SMD" H 2350 1650 50  0001 C CNN
-F 3 "~" H 2350 1650 50  0001 C CNN
-	1    2350 1650
-	-1   0    0    -1  
+F 0 "J1" H 2300 2067 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 2300 1976 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x04_P2.00mm_Vertical_SMD" H 2250 1650 50  0001 C CNN
+F 3 "~" H 2250 1650 50  0001 C CNN
+	1    2250 1650
+	1    0    0    -1  
 $EndComp
 Text GLabel 2650 1650 2    50   Input ~ 0
 GPIO24
@@ -241,4 +242,5 @@ Wire Wire Line
 	4700 2850 4500 2850
 Wire Wire Line
 	4500 3300 4700 3300
+Connection ~ 2650 1550
 $EndSCHEMATC

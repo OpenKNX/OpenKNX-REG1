@@ -1,12 +1,13 @@
 EESchema Schematic File Version 4
+LIBS:REG1-Front-Universal-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "REG1-Front-Universal"
-Date "2022-10-21"
-Rev "V00.01"
+Date "2022-11-04"
+Rev "V00.02"
 Comp "OpenKNX"
 Comment1 "by SirSydom <com@sirsydom.de>"
 Comment2 ""
@@ -163,10 +164,10 @@ F 3 "~" H 5150 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW6
+L Switch:SW_Push SW4
 U 1 1 6354CA95
 P 5150 5500
-F 0 "SW6" H 5150 5785 50  0000 C CNN
+F 0 "SW4" H 5150 5785 50  0000 C CNN
 F 1 "BL" H 5150 5694 50  0000 C CNN
 F 2 "sirsydom:SW_Push_Xunpu_TS-1089S" H 5150 5700 50  0001 C CNN
 F 3 "~" H 5150 5700 50  0001 C CNN
@@ -174,10 +175,10 @@ F 3 "~" H 5150 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW5
+L Switch:SW_Push SW3
 U 1 1 6354C6EC
 P 5150 5050
-F 0 "SW5" H 5150 5335 50  0000 C CNN
+F 0 "SW3" H 5150 5335 50  0000 C CNN
 F 1 "Res" H 5150 5244 50  0000 C CNN
 F 2 "sirsydom:SW_Push_Xunpu_TS-1089S" H 5150 5250 50  0001 C CNN
 F 3 "~" H 5150 5250 50  0001 C CNN
