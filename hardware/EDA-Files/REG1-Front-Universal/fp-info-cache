@@ -1,4 +1,4 @@
-17218483693376457
+17226828984909010
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50617,6 +50617,20 @@ KNX Konnekting BCU MicroBCU MicroBCU2
 7
 7
 OpenKNX
+NanoBCU_Soldered
+OpenKNX NanoBCU Horizontal 2.54 THT PinHeader 1x07
+OpenKNX BCU NanoBCU THT
+0
+7
+7
+OpenKNX
+NanoBCU_Soldered_bottom_up
+OpenKNX NanoBCU Horizontal 2.54 THT PinHeader 1x07
+OpenKNX BCU NanoBCU THT
+0
+7
+7
+OpenKNX
 OpenKNX_Logo_05x03
 
 
@@ -76531,6 +76545,13 @@ ItsyBitsyM0
 33
 33
 sirsydom
+JLCPCB_Tooling_hole
+
+
+0
+0
+0
+sirsydom
 KNX_Connector
 Through hole straight pin header, 2x05, 2.54mm pitch, double rows
 Through hole pin header THT 2x05 2.54mm double row
@@ -76712,6 +76733,20 @@ Through hole angled socket strip THT 1x05 2.54mm single row
 0
 5
 5
+sirsydom
+PinSocket_1x05_P2.54mm_Vertical_PH8.5
+Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x05 2.54mm single row
+0
+5
+5
+sirsydom
+PinSocket_1x08_P1.27mm_Horizontal
+Through hole angled socket, 1x08, 1.27mm pitch, 4.3mm plastic height, single row
+Through hole angled socket THT 1x08 1.27mm single row
+0
+8
+8
 sirsydom
 PinSocket_2x04_P2.54mm_Vertical_SMD_with_holes
 surface-mounted straight socket strip, 2x04, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated

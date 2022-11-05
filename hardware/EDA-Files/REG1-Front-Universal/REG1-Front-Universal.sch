@@ -9,7 +9,7 @@ Title "REG1-Front-Universal"
 Date "2022-11-04"
 Rev "V00.02"
 Comp "OpenKNX"
-Comment1 "by SirSydom <com@sirsydom.de>"
+Comment1 "by Ing-Dom <dom@ing-dom.de>"
 Comment2 ""
 Comment3 ""
 Comment4 "https://OpenKNX.de"
@@ -242,5 +242,4 @@ Wire Wire Line
 	4700 2850 4500 2850
 Wire Wire Line
 	4500 3300 4700 3300
-Connection ~ 2650 1550
 $EndSCHEMATC
