@@ -1,14 +1,15 @@
 EESchema Schematic File Version 4
+LIBS:REG1-App-Universal-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "REG1-App-Universal"
-Date "2022-10-21"
-Rev "V00.01"
+Date "2022-11-05"
+Rev "V00.02"
 Comp "OpenKNX"
-Comment1 "by SirSydom <com@sirsydom.de>"
+Comment1 "by Ing-Dom <dom@ing-dom.de>"
 Comment2 ""
 Comment3 ""
 Comment4 "https://OpenKNX.de"
