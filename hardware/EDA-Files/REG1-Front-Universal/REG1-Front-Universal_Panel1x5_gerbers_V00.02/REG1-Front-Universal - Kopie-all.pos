@@ -1,0 +1,51 @@
+### Module positions - created on 28/01/2023 22:23:30 ###
+### Printed by Pcbnew version pcbnew (5.1.4)-1
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val                  Package                                   PosX       PosY       Rot  Side
+J1        Conn_02x04_Odd_Even  PinHeader_2x04_P2.00mm_Vertical_SMD  -145.5600  -124.9800  270.0000  bottom
+J1        Conn_02x04_Odd_Even  PinHeader_2x04_P2.00mm_Vertical_SMD  -105.5600  -124.9800  270.0000  bottom
+J1        Conn_02x04_Odd_Even  PinHeader_2x04_P2.00mm_Vertical_SMD  -125.5600  -124.9800  270.0000  bottom
+J1        Conn_02x04_Odd_Even  PinHeader_2x04_P2.00mm_Vertical_SMD  -165.5600  -124.9800  270.0000  bottom
+J1        Conn_02x04_Odd_Even  PinHeader_2x04_P2.00mm_Vertical_SMD  -185.5600  -124.9800  270.0000  bottom
+D1        Prog                 LED_0603_1608Metric                   191.5000  -117.7500   90.0000  top
+D1        Prog                 LED_0603_1608Metric                   171.5000  -117.7500   90.0000  top
+D1        Prog                 LED_0603_1608Metric                   151.5000  -117.7500   90.0000  top
+D1        Prog                 LED_0603_1608Metric                   131.5000  -117.7500   90.0000  top
+D1        Prog                 LED_0603_1608Metric                   111.5000  -117.7500   90.0000  top
+D2        Func                 LED_0603_1608Metric                   191.5000  -124.2500   90.0000  top
+D2        Func                 LED_0603_1608Metric                   171.5000  -124.2500   90.0000  top
+D2        Func                 LED_0603_1608Metric                   151.5000  -124.2500   90.0000  top
+D2        Func                 LED_0603_1608Metric                   131.5000  -124.2500   90.0000  top
+D2        Func                 LED_0603_1608Metric                   111.5000  -124.2500   90.0000  top
+R1        R                    R_0402_1005Metric                     131.5000  -119.8500  180.0000  top
+R1        R                    R_0402_1005Metric                     151.5000  -119.8500  180.0000  top
+R1        R                    R_0402_1005Metric                     171.5000  -119.8500  180.0000  top
+R1        R                    R_0402_1005Metric                     191.5000  -119.8500  180.0000  top
+R1        R                    R_0402_1005Metric                     111.5000  -119.8500  180.0000  top
+R2        R                    R_0402_1005Metric                     131.5000  -126.3500  180.0000  top
+R2        R                    R_0402_1005Metric                     151.5000  -126.3500  180.0000  top
+R2        R                    R_0402_1005Metric                     171.5000  -126.3500  180.0000  top
+R2        R                    R_0402_1005Metric                     191.5000  -126.3500  180.0000  top
+R2        R                    R_0402_1005Metric                     111.5000  -126.3500  180.0000  top
+SW1       Prog                 SW_Push_Xunpu_TS-1089S                181.7000  -117.7000  270.0000  top
+SW1       Prog                 SW_Push_Xunpu_TS-1089S                161.7000  -117.7000  270.0000  top
+SW1       Prog                 SW_Push_Xunpu_TS-1089S                141.7000  -117.7000  270.0000  top
+SW1       Prog                 SW_Push_Xunpu_TS-1089S                121.7000  -117.7000  270.0000  top
+SW1       Prog                 SW_Push_Xunpu_TS-1089S                101.7000  -117.7000  270.0000  top
+SW2       Func                 SW_Push_Xunpu_TS-1089S                101.7100  -124.1600  270.0000  top
+SW2       Func                 SW_Push_Xunpu_TS-1089S                161.7100  -124.1600  270.0000  top
+SW2       Func                 SW_Push_Xunpu_TS-1089S                141.7100  -124.1600  270.0000  top
+SW2       Func                 SW_Push_Xunpu_TS-1089S                181.7100  -124.1600  270.0000  top
+SW2       Func                 SW_Push_Xunpu_TS-1089S                121.7100  -124.1600  270.0000  top
+SW3       Res                  SW_Push_Xunpu_TS-1089S                121.7200  -131.6300  270.0000  top
+SW3       Res                  SW_Push_Xunpu_TS-1089S                141.7200  -131.6300  270.0000  top
+SW3       Res                  SW_Push_Xunpu_TS-1089S                101.7200  -131.6300  270.0000  top
+SW3       Res                  SW_Push_Xunpu_TS-1089S                161.7200  -131.6300  270.0000  top
+SW3       Res                  SW_Push_Xunpu_TS-1089S                181.7200  -131.6300  270.0000  top
+SW4       BL                   SW_Push_Xunpu_TS-1089S                181.7250  -137.9750  270.0000  top
+SW4       BL                   SW_Push_Xunpu_TS-1089S                101.7250  -137.9750  270.0000  top
+SW4       BL                   SW_Push_Xunpu_TS-1089S                121.7250  -137.9750  270.0000  top
+SW4       BL                   SW_Push_Xunpu_TS-1089S                141.7250  -137.9750  270.0000  top
+SW4       BL                   SW_Push_Xunpu_TS-1089S                161.7250  -137.9750  270.0000  top
+## End
