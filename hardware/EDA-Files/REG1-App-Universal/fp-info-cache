@@ -1,4 +1,4 @@
-17218483693376457
+17231859015140881
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50617,6 +50617,20 @@ KNX Konnekting BCU MicroBCU MicroBCU2
 7
 7
 OpenKNX
+NanoBCU_Soldered
+OpenKNX NanoBCU Horizontal 2.54 THT PinHeader 1x07
+OpenKNX BCU NanoBCU THT
+0
+7
+7
+OpenKNX
+NanoBCU_Soldered_bottom_up
+OpenKNX NanoBCU Horizontal 2.54 THT PinHeader 1x07
+OpenKNX BCU NanoBCU THT
+0
+7
+7
+OpenKNX
 OpenKNX_Logo_05x03
 
 
@@ -76496,6 +76510,13 @@ CableMount_3mm
 1
 1
 sirsydom
+Cixi_Kefa_KF2EDGR-2.54-8p
+Generic Phoenix Contact connector footprint for: Cixi_Kefa_KF2EDGR-2.54-8p; number of pins: 08; pin pitch: 2.54mm; Angled
+
+0
+8
+8
+sirsydom
 Cixi_Kefa_KF128-2.54-4p
 
 
@@ -76517,6 +76538,20 @@ phoenix_contact connector MC_01x06_G_3.81mm
 6
 6
 sirsydom
+HANRUN_HR911105A
+
+
+0
+14
+14
+sirsydom
+HRS_DM3CS-SF
+
+
+0
+10
+10
+sirsydom
 Hongfa_HFE20-1_x-1Hxx-L2
 
 
@@ -76530,6 +76565,13 @@ ItsyBitsyM0
 0
 33
 33
+sirsydom
+JLCPCB_Tooling_hole
+
+
+0
+0
+0
 sirsydom
 KNX_Connector
 Through hole straight pin header, 2x05, 2.54mm pitch, double rows
@@ -76712,6 +76754,20 @@ Through hole angled socket strip THT 1x05 2.54mm single row
 0
 5
 5
+sirsydom
+PinSocket_1x05_P2.54mm_Vertical_PH8.5
+Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x05 2.54mm single row
+0
+5
+5
+sirsydom
+PinSocket_1x08_P1.27mm_Horizontal
+Through hole angled socket, 1x08, 1.27mm pitch, 4.3mm plastic height, single row
+Through hole angled socket THT 1x08 1.27mm single row
+0
+8
+8
 sirsydom
 PinSocket_2x04_P2.54mm_Vertical_SMD_with_holes
 surface-mounted straight socket strip, 2x04, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
