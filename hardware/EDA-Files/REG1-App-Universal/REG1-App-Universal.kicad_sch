@@ -6,8 +6,8 @@
 
   (title_block
     (title "REG1-App-Universal")
-    (date "2023-10-13")
-    (rev "V00.90")
+    (date "2023-10-15")
+    (rev "V01.00")
     (company "OpenKNX")
     (comment 1 "by Ing-Dom <dom@ing-dom.de>")
     (comment 4 "https://OpenKNX.de")
