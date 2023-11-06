@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:REG1-Front-Universal-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -242,4 +241,15 @@ Wire Wire Line
 	4700 2850 4500 2850
 Wire Wire Line
 	4500 3300 4700 3300
+$Comp
+L Connector_Generic:Conn_01x10 J2
+U 1 1 64A2C9EB
+P 2100 3050
+F 0 "J2" H 2180 3042 50  0000 L CNN
+F 1 "Conn_01x10" H 2180 2951 50  0000 L CNN
+F 2 "sirsydom:C11050_FPC-SMD_P0.5-10P_LSXJ-H2.0-10P" H 2100 3050 50  0001 C CNN
+F 3 "~" H 2100 3050 50  0001 C CNN
+	1    2100 3050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
