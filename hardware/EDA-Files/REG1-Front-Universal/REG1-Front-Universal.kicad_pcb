@@ -82,7 +82,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "REG1-Front-Universal_gerbers_V01.00/")
+      (outputdirectory "dxf/")
     )
   )
 
