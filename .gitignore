@@ -4,3 +4,6 @@ REG1-App-Universal-backups
 REG1-App-8xBE-backups
 /hardware/EDA-Files/REG1-App-Universal/*.kicad_prl
 /hardware/EDA-Files/REG1-Front-Universal/*.kicad_prl
+/hardware/EDA-Files/REG1-App-GW-RF2G4/REG1-App-GW-RF2G4-backups
+/hardware/EDA-Files/REG1-App-Dali/REG1-App-Dali-backups
+/hardware/EDA-Files/REG1-Front-Universal/REG1-Front-Universal-backups

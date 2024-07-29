@@ -1,0 +1,4 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+J1,PinHeader_1x10_P2.54mm_Horizontal,1,REG1_App_Connector,
+U1,WIRELM-TH_E01-ML01DP5,1,E01-ML01DP5,C97339
+U2,C2971732_WIRELM-SMD_10P-L23.0-W14.0-P1.27_E01-2G4M27S_Handsolder,1,E01-2G4M27S,C2971732

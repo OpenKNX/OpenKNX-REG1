@@ -6,8 +6,8 @@
 
   (paper "A4")
   (title_block
-    (date "2024-07-27")
-    (rev "V01.00")
+    (date "2024-07-29")
+    (rev "V00.01")
   )
 
   (layers
@@ -86,7 +86,7 @@
   )
 
   (net 0 "")
-  (net 1 "unconnected-(J1-GP17-Pad2)")
+  (net 1 "unconnected-(J1-GP16-Pad1)")
   (net 2 "unconnected-(J1-VCC2-Pad10)")
   (net 3 "unconnected-(U1-Pad12)")
   (net 4 "unconnected-(U1-Pad11)")
@@ -217,7 +217,7 @@
 
   (footprint "OpenKNX:CC-BY-NY-SA_12x4" (layer "F.Cu")
     (tstamp 1cf3a534-a8d2-4c71-8e5b-1d61aa5ad2fe)
-    (at 141.325111 119.895111)
+    (at 124.05 102.35)
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G1" (at 0 0) (layer "F.Fab")
         (effects (font (size 1.5 1.5) (thickness 0.3)))
@@ -1212,7 +1212,7 @@
 
   (footprint "OpenKNX:OpenKNX_Logo_10x10" (layer "F.Cu")
     (tstamp 288b4b3b-de8d-48a2-9fb3-84feb337b286)
-    (at 139.42 114.81)
+    (at 113.5 102.35)
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at 0 0) (layer "F.Fab")
         (effects (font (size 1.5 1.5) (thickness 0.3)))
@@ -2158,9 +2158,9 @@
     (fp_line (start 10.04 0.32) (end 10.04 -0.32)
       (stroke (width 0.1) (type solid)) (layer "B.Fab") (tstamp 8b993451-bf9c-4570-8ba4-4c4d11969d6f))
     (pad "1" thru_hole rect locked (at 0 0 90) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 7 "enable") (pinfunction "GP16") (pintype "bidirectional") (tstamp 8a8d463b-85fd-479d-9abe-0afe42a6569a))
+      (net 1 "unconnected-(J1-GP16-Pad1)") (pinfunction "GP16") (pintype "bidirectional") (tstamp 8a8d463b-85fd-479d-9abe-0afe42a6569a))
     (pad "2" thru_hole oval locked (at 0 -2.54 90) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 1 "unconnected-(J1-GP17-Pad2)") (pinfunction "GP17") (pintype "bidirectional") (tstamp a016a500-cf60-4296-90f2-46822e1cbfb0))
+      (net 7 "enable") (pinfunction "GP17") (pintype "bidirectional") (tstamp a016a500-cf60-4296-90f2-46822e1cbfb0))
     (pad "3" thru_hole oval locked (at 0 -5.08 90) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 8 "INT") (pinfunction "GP18") (pintype "bidirectional") (tstamp c42e776e-76b9-4d9d-819f-1d05c714b0fd))
     (pad "4" thru_hole oval locked (at 0 -7.62 90) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
@@ -2242,7 +2242,7 @@
     (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp f16a2477-2043-4503-bfe7-79a75ec0d27c))
   (gr_line (start 140.9 90.1) (end 140.9 92.4)
     (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp f30bf92a-b51e-4296-bfe6-6a7f69c28326))
-  (gr_text "REG1-App-GW-RF2G4 V00.01\n(c) Ing-Dom, 2024" (at 81.95 94.9) (layer "F.SilkS") (tstamp 1586f95f-969b-4ab4-8186-7f736234d4a0)
+  (gr_text "REG1-App-GW-RF2G4 V00.01\nby Ing-Dom, 2024" (at 109.85 98) (layer "F.SilkS") (tstamp 1586f95f-969b-4ab4-8186-7f736234d4a0)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
   (gr_text "0,2mm Spacing to Case" (at 50.8 95.4) (layer "Eco1.User") (tstamp 1c9dba44-0564-4c90-a35c-2ae3717e9d73)
@@ -2258,13 +2258,12 @@
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
 
-  (segment (start 116.833503 101.933503) (end 110.1 108.667007) (width 0.3) (layer "F.Cu") (net 7) (tstamp 0b9adfdb-6adb-4f4b-8358-48130eb672df))
-  (segment (start 127.21 97.85) (end 120.917007 97.85) (width 0.3) (layer "F.Cu") (net 7) (tstamp 10bd8577-6cc7-4cd4-8fe2-60700c4f6bcc))
-  (segment (start 120.917007 97.85) (end 116.833503 101.933503) (width 0.3) (layer "F.Cu") (net 7) (tstamp 1b6f99f9-0d00-4af0-98a3-b6f12edb057f))
+  (segment (start 120.917007 97.85) (end 124.67 97.85) (width 0.3) (layer "F.Cu") (net 7) (tstamp 044b4afa-bcca-4732-9c0c-10afe451f1f3))
+  (segment (start 110.1 108.667007) (end 120.917007 97.85) (width 0.3) (layer "F.Cu") (net 7) (tstamp 2d495f8d-4e2a-42fe-b3dd-f97cd1fde107))
   (segment (start 97.55 110.68) (end 95.63 110.68) (width 0.3) (layer "F.Cu") (net 7) (tstamp 2ecdd738-c509-4c88-b95f-69390c139648))
   (segment (start 95.63 110.68) (end 95.6 110.65) (width 0.3) (layer "F.Cu") (net 7) (tstamp 610f7c41-e140-481a-b814-145b0caf1c33))
-  (segment (start 130.76 94.3) (end 127.21 97.85) (width 0.3) (layer "F.Cu") (net 7) (tstamp 646cb361-c4a5-4601-8cb0-6302eeae9502))
-  (segment (start 103.790043 108.667007) (end 110.1 108.667007) (width 0.3) (layer "F.Cu") (net 7) (tstamp a34fdd6d-e4e7-4762-84d5-56dfa0023692))
+  (segment (start 124.67 97.85) (end 128.22 94.3) (width 0.3) (layer "F.Cu") (net 7) (tstamp c6812b6d-0e72-45e7-be31-5b40bf4a3e70))
+  (segment (start 103.790043 108.667007) (end 110.1 108.667007) (width 0.3) (layer "F.Cu") (net 7) (tstamp e81b33c7-5abc-408d-a1e8-d896941380ca))
   (via (at 95.6 110.65) (size 0.6) (drill 0.3) (layers "F.Cu" "B.Cu") (net 7) (tstamp ab1c4b56-863b-4148-a2d7-c6a50ae7842e))
   (segment (start 105.75 113.6) (end 106.6 112.75) (width 0.3) (layer "B.Cu") (net 7) (tstamp 10769254-8655-4fb8-bc25-5e9cb7900f38))
   (segment (start 106.6 112.75) (end 106.6 109.2) (width 0.3) (layer "B.Cu") (net 7) (tstamp 7df5b535-7466-47c8-8a38-bf3586fc59fe))
