@@ -1161,7 +1161,7 @@
       "idf": "",
       "netlist": "REG1-App-Universal.net",
       "specctra_dsn": "",
-      "step": "REG1-App-GW-RF2G4.step",
+      "step": "REG1-App-GW-RF2G4_V00.01.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
