@@ -1,0 +1,296 @@
+EESchema Schematic File Version 4
+LIBS:REG1-App-Eth-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title "REG1-App-Eth"
+Date "2023-04-28"
+Rev "V00.01"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L REG1-App-Eth-rescue:TPS54202DDC-Regulator_Switching-REG1-App-Eth-rescue U50
+U 1 1 642936C5
+P 4400 4850
+F 0 "U50" H 4400 5217 50  0000 C CNN
+F 1 "TPS54202DDC" H 4400 5126 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 4450 4500 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps54202.pdf" H 4100 5200 50  0001 C CNN
+	1    4400 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C50
+U 1 1 64293BF2
+P 3400 5250
+F 0 "C50" H 3515 5296 50  0000 L CNN
+F 1 "1uF" H 3515 5205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3438 5100 50  0001 C CNN
+F 3 "~" H 3400 5250 50  0001 C CNN
+	1    3400 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C52
+U 1 1 642940EB
+P 5900 5000
+F 0 "C52" H 6015 5046 50  0000 L CNN
+F 1 "47pF" H 6015 4955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5938 4850 50  0001 C CNN
+F 3 "~" H 5900 5000 50  0001 C CNN
+	1    5900 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L50
+U 1 1 6429458E
+P 5600 4850
+F 0 "L50" V 5419 4850 50  0000 C CNN
+F 1 "12uH" V 5510 4850 50  0000 C CNN
+F 2 "Inductor_SMD:L_Taiyo-Yuden_NR-40xx_HandSoldering" H 5600 4850 50  0001 C CNN
+F 3 "~" H 5600 4850 50  0001 C CNN
+F 4 "C96886" V 5600 4850 50  0001 C CNN "LCSC"
+	1    5600 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C53
+U 1 1 64294E76
+P 6750 5250
+F 0 "C53" H 6865 5296 50  0000 L CNN
+F 1 "47uF" H 6865 5205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6788 5100 50  0001 C CNN
+F 3 "~" H 6750 5250 50  0001 C CNN
+	1    6750 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R50
+U 1 1 642954FE
+P 6400 5000
+F 0 "R50" H 6470 5046 50  0000 L CNN
+F 1 "100k" H 6470 4955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6330 5000 50  0001 C CNN
+F 3 "~" H 6400 5000 50  0001 C CNN
+	1    6400 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R51
+U 1 1 64295E1D
+P 6400 5500
+F 0 "R51" H 6470 5546 50  0000 L CNN
+F 1 "22k1" H 6470 5455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6330 5500 50  0001 C CNN
+F 3 "~" H 6400 5500 50  0001 C CNN
+	1    6400 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C51
+U 1 1 64297E91
+P 5000 4700
+F 0 "C51" H 5115 4746 50  0000 L CNN
+F 1 "100nF" H 5115 4655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5038 4550 50  0001 C CNN
+F 3 "~" H 5000 4700 50  0001 C CNN
+	1    5000 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 4850 5000 4850
+Wire Wire Line
+	5750 4850 5900 4850
+Wire Wire Line
+	6400 5150 6400 5250
+Wire Wire Line
+	6400 4850 6750 4850
+Wire Wire Line
+	6750 4850 6750 5100
+Connection ~ 6400 4850
+Wire Wire Line
+	6750 5400 6750 5650
+Wire Wire Line
+	6750 5650 6400 5650
+Wire Wire Line
+	4800 4750 4800 4550
+Wire Wire Line
+	4800 4550 5000 4550
+Wire Wire Line
+	4800 4950 5150 4950
+Wire Wire Line
+	6400 5650 4400 5650
+Wire Wire Line
+	4400 5650 4400 5150
+Connection ~ 6400 5650
+Wire Wire Line
+	4000 4750 3400 4750
+Wire Wire Line
+	3400 4750 3400 5100
+Wire Wire Line
+	3400 5400 3400 5650
+Wire Wire Line
+	3400 5650 4400 5650
+Connection ~ 4400 5650
+Connection ~ 6400 5250
+Wire Wire Line
+	6400 5250 6400 5350
+Wire Wire Line
+	5150 4950 5150 5250
+Connection ~ 5900 4850
+Wire Wire Line
+	5150 5250 5900 5250
+Wire Wire Line
+	5900 5150 5900 5250
+Wire Wire Line
+	5900 4850 6400 4850
+Connection ~ 5900 5250
+Wire Wire Line
+	5900 5250 6400 5250
+Connection ~ 5000 4850
+Wire Wire Line
+	5000 4850 5450 4850
+$Comp
+L power:GND #PWR050
+U 1 1 6429BFBC
+P 4400 5650
+F 0 "#PWR050" H 4400 5400 50  0001 C CNN
+F 1 "GND" H 4405 5477 50  0000 C CNN
+F 2 "" H 4400 5650 50  0001 C CNN
+F 3 "" H 4400 5650 50  0001 C CNN
+	1    4400 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 4850 6750 4850
+Connection ~ 6750 4850
+Connection ~ 3400 4750
+Text GLabel 6900 4850 2    50   Input ~ 0
+3V3_Stepdown
+Text GLabel 1950 3000 0    50   Input ~ 0
+VCC2
+$Comp
+L Device:CP C60
+U 1 1 644B3843
+P 3850 3450
+F 0 "C60" H 3968 3496 50  0000 L CNN
+F 1 "CP" H 3968 3405 50  0000 L CNN
+F 2 "sirsydom:CP_Radial_D10.0mm_H20.0mm_P5.00mm_Horizontal" H 3888 3300 50  0001 C CNN
+F 3 "~" H 3850 3450 50  0001 C CNN
+	1    3850 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C61
+U 1 1 6449E20E
+P 3200 3450
+F 0 "C61" H 3318 3496 50  0000 L CNN
+F 1 "CP" H 3318 3405 50  0000 L CNN
+F 2 "sirsydom:CP_Radial_D10.0mm_H20.0mm_P5.00mm_Horizontal" H 3238 3300 50  0001 C CNN
+F 3 "~" H 3200 3450 50  0001 C CNN
+	1    3200 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R60
+U 1 1 644FDA01
+P 2450 2850
+F 0 "R60" V 2243 2850 50  0000 C CNN
+F 1 "300R" V 2334 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 2380 2850 50  0001 C CNN
+F 3 "~" H 2450 2850 50  0001 C CNN
+	1    2450 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Schottky D60
+U 1 1 644FFAA2
+P 2600 3350
+F 0 "D60" H 2600 3567 50  0000 C CNN
+F 1 "D_Schottky" H 2600 3476 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 2600 3350 50  0001 C CNN
+F 3 "~" H 2600 3350 50  0001 C CNN
+F 4 "C191023" H 2600 3350 50  0001 C CNN "LCSC"
+	1    2600 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 3000 2350 3000
+Wire Wire Line
+	2350 3000 2350 3350
+Wire Wire Line
+	2350 3350 2450 3350
+Connection ~ 2350 3000
+Wire Wire Line
+	2350 3000 2450 3000
+Wire Wire Line
+	2750 3000 2950 3000
+Wire Wire Line
+	2950 3000 2950 3150
+Wire Wire Line
+	2950 3350 2750 3350
+Wire Wire Line
+	2950 3150 3200 3150
+Wire Wire Line
+	3200 3150 3200 3300
+Connection ~ 2950 3150
+Wire Wire Line
+	2950 3150 2950 3350
+Wire Wire Line
+	3200 3150 3850 3150
+Wire Wire Line
+	3850 3150 3850 3300
+Connection ~ 3200 3150
+Wire Wire Line
+	3850 3600 3850 3750
+Wire Wire Line
+	3850 3750 3550 3750
+Wire Wire Line
+	3200 3750 3200 3600
+$Comp
+L power:GND #PWR0131
+U 1 1 6450575D
+P 3550 3750
+F 0 "#PWR0131" H 3550 3500 50  0001 C CNN
+F 1 "GND" H 3555 3577 50  0000 C CNN
+F 2 "" H 3550 3750 50  0001 C CNN
+F 3 "" H 3550 3750 50  0001 C CNN
+	1    3550 3750
+	1    0    0    -1  
+$EndComp
+Connection ~ 3550 3750
+Wire Wire Line
+	3550 3750 3200 3750
+Text Notes 750  3200 0    50   ~ 0
+max 45mA @16.3 V ( ca. 700mW)
+Text Notes 3100 2900 0    50   ~ 0
+600R = max. 25mA
+Text Notes 4600 4250 0    50   ~ 0
+Ethernet:\n130mA @ 3,3V = ca. 430mW.\nat 90% Efficiency this is 30mA @ 16V.
+Wire Wire Line
+	2350 3350 2350 4750
+Connection ~ 2350 3350
+Wire Wire Line
+	2350 4750 3400 4750
+Text Notes 4300 3050 0    50   ~ 0
+When powering up all 3.3V consumers will kept in reset (Ethernet and SD-Card).
+$Comp
+L Device:R R61
+U 1 1 644E235E
+P 2750 2850
+F 0 "R61" V 2543 2850 50  0000 C CNN
+F 1 "300R" V 2634 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 2680 2850 50  0001 C CNN
+F 3 "~" H 2750 2850 50  0001 C CNN
+	1    2750 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2450 2700 2750 2700
+$EndSCHEMATC
