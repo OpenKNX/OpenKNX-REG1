@@ -9,3 +9,6 @@ REG1-App-8xBE-backups
 /hardware/EDA-Files/REG1-Front-Universal/REG1-Front-Universal-backups
 /hardware/EDA-Files/REG1-App-Universal/production/backups
 *.kicad_prl
+*.xml
+fp-lib-table
+sym-lib-table
