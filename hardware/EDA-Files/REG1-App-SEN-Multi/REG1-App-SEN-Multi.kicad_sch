@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "REG1-App-SEN-Multi")
-		(date "2024-09-10")
-		(rev "V00.02")
+		(date "2026-04-20")
+		(rev "V01.00")
 		(company "OpenKNX")
 		(comment 1 "by Ing-Dom <dom@ing-dom.de>")
 		(comment 2 "OpenKNX Open Hardware under CC BY-NC-SA 4.0")
@@ -2565,8 +2565,12 @@
 		)
 		(symbol "power:+3.3V"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2666,8 +2670,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+3.3V"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2687,8 +2690,12 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2788,8 +2795,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+5V"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2809,8 +2815,12 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2886,8 +2896,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4371,16 +4380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 254 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 254 43.18 0)
 			(effects
 				(font
@@ -4460,15 +4460,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
 			(at 72.39 52.07 0)
 			(effects
 				(font
@@ -4562,7 +4553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 68.58 121.92 0)
 			(effects
 				(font
@@ -4629,16 +4620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 133.35 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 133.35 46.99 0)
 			(effects
 				(font
@@ -4720,7 +4702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 34.29 111.76 0)
 			(effects
 				(font
@@ -4787,7 +4769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 130.81 44.45 0)
 			(effects
 				(font
@@ -4853,16 +4835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 138.43 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 138.43 22.86 0)
 			(effects
 				(font
@@ -4953,15 +4926,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 81.28 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "5375f00e-2d3a-4a5b-ad29-abfc19d1b6d7")
 		)
@@ -5041,7 +5005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 87.63 60.96 0)
 			(effects
 				(font
@@ -5108,7 +5072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 34.29 104.14 0)
 			(effects
 				(font
@@ -5175,7 +5139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 34.29 119.38 0)
 			(effects
 				(font
@@ -5242,7 +5206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 88.9 87.63 0)
 			(effects
 				(font
@@ -5308,16 +5272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 246.38 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
+		(property "Description" "Resistor"
 			(at 246.38 104.14 0)
 			(effects
 				(font
@@ -5387,7 +5342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 87.63 58.42 0)
 			(effects
 				(font
@@ -5454,7 +5409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 118.11 20.32 0)
 			(effects
 				(font
@@ -5520,16 +5475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 243.84 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
+		(property "Description" "Resistor"
 			(at 243.84 104.14 0)
 			(effects
 				(font
@@ -5596,16 +5542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 234.95 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
+		(property "Description" "Resistor"
 			(at 234.95 43.18 0)
 			(effects
 				(font
@@ -5664,7 +5601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2407101112_MDD-Microdiode-Semiconductor-SM05C_C502554.pdf"
+		(property "Datasheet" "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf"
 			(at 250.825 78.105 0)
 			(effects
 				(font
@@ -5673,16 +5610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 254 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
+		(property "Description" "TVS Diode Array, 5.5V Standoff, 2 Channels, SOT-23 package"
 			(at 254 81.28 0)
 			(effects
 				(font
@@ -5761,7 +5689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 34.29 129.54 0)
 			(effects
 				(font
@@ -5817,7 +5745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2407101112_MDD-Microdiode-Semiconductor-SM05C_C502554.pdf"
+		(property "Datasheet" "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf"
 			(at 250.825 93.345 0)
 			(effects
 				(font
@@ -5826,16 +5754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 254 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
+		(property "Description" "TVS Diode Array, 5.5V Standoff, 2 Channels, SOT-23 package"
 			(at 254 96.52 0)
 			(effects
 				(font
@@ -5914,7 +5833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 34.29 121.92 0)
 			(effects
 				(font
@@ -5982,15 +5901,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
 			(at 76.2 87.63 0)
 			(effects
 				(font
@@ -6077,16 +5987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 177.8 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 177.8 22.86 0)
 			(effects
 				(font
@@ -6165,16 +6066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 181.61 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
+		(property "Description" "Resistor"
 			(at 181.61 36.83 0)
 			(effects
 				(font
@@ -6217,7 +6109,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RJ22_1"
+		(property "Value" "RJ22"
 			(at 26.67 87.63 0)
 			(effects
 				(font
@@ -6244,16 +6136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 29.21 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 29.21 85.09 0)
 			(effects
 				(font
@@ -6328,16 +6211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 241.3 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
+		(property "Description" "Resistor"
 			(at 241.3 104.14 0)
 			(effects
 				(font
@@ -6404,16 +6278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 234.95 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
+		(property "Description" "Resistor"
 			(at 234.95 38.1 0)
 			(effects
 				(font
@@ -6480,16 +6345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 234.95 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
+		(property "Description" "Resistor"
 			(at 234.95 48.26 0)
 			(effects
 				(font
@@ -6558,7 +6414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 133.35 52.07 0)
 			(effects
 				(font
@@ -6625,7 +6481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 34.29 82.55 0)
 			(effects
 				(font
@@ -6652,9 +6508,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "cbbdfbfd-acb8-4b6d-b0ca-1c2ae882c46a")
 		(property "Reference" "J13"
 			(at 29.21 135.89 0)
@@ -6690,16 +6546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 29.21 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 29.21 119.38 0)
 			(effects
 				(font
@@ -6787,7 +6634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 63.5 87.63 0)
 			(effects
 				(font
@@ -6853,16 +6700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 124.46 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 124.46 22.86 0)
 			(effects
 				(font
@@ -6944,7 +6782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 34.29 90.17 0)
 			(effects
 				(font
@@ -7008,16 +6846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 181.61 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
+		(property "Description" "Resistor"
 			(at 181.61 34.29 0)
 			(effects
 				(font
@@ -7087,7 +6916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 87.63 63.5 0)
 			(effects
 				(font
@@ -7154,7 +6983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 93.98 121.92 0)
 			(effects
 				(font
@@ -7220,16 +7049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 189.23 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 189.23 22.86 0)
 			(effects
 				(font
@@ -7308,16 +7128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 181.61 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
+		(property "Description" "Resistor"
 			(at 181.61 39.37 0)
 			(effects
 				(font
@@ -7360,7 +7171,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RJ22_2"
+		(property "Value" "RJ22"
 			(at 26.67 101.6 0)
 			(effects
 				(font
@@ -7387,16 +7198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 29.21 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 29.21 99.06 0)
 			(effects
 				(font
@@ -7472,7 +7274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 34.29 96.52 0)
 			(effects
 				(font
@@ -7538,7 +7340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 124.46 27.94 0)
 			(effects
 				(font
@@ -7606,15 +7408,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
 			(at 160.02 38.1 0)
 			(effects
 				(font
